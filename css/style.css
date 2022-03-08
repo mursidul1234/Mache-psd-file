@@ -1,0 +1,515 @@
+/*
+author: md: mursadul islam
+Email address: mursiduli287@gmail.com;
+website: www.eti softwer.com;
+*/
+/*
+=====index===
+1.home
+2.about us
+3.our prize
+4.contact
+5.facilitics
+*/
+/*theme css*/
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Comforter&family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,700;1,900&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,400;1,500;1,600;1,700;1,800;1,900&family=Quintessential&family=Raleway:ital,wght@0,100;1,100&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,900;1,100;1,700;1,900&family=Supermercado+One&display=swap');
+/*global css*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+/* Header Section */
+.nav-head h4{
+    font-weight: 700;
+    color: white;
+}
+.nav-head h4 span{
+    color: #ED145B;
+    margin-right: 15px;
+}
+a.nav-link.js-scroll-trigger{
+    color: #fff;
+    font-weight: 700;
+    margin: 0px 5px;
+}
+a.nav-link.js-scroll-trigger.active{
+    color: #ED145B;
+    font-weight: 700;
+    margin: 0px 5px;
+}
+.fa.fa-bars{
+    color: #ED145B;
+}
+.banner{
+	background-image: url('../img/banner.jpg');
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 500px 0px;
+	margin-top:-100px;
+	background-position: center;
+}
+.banner-content h1{
+	color: #fff;
+    text-align: center;
+
+}
+
+.banner-content p {
+    color: #fff;
+    text-align: center;
+    width: 54%;
+    margin: 83px 409px;
+}
+.banner-content span {
+    border: 2px solid #f00;
+    display: block;
+    width: 222px;
+    margin: auto;
+}
+.banner-btn{
+	padding: 11px 41px;
+    border: #000080;
+    border-radius: 35px;
+    background: #ed145b;
+    color: #fff;
+    margin-left: 553px;
+
+}
+/* About Section */
+.About{
+    background-color: #F4F4F4;
+    height: 550px;
+}
+.about-content h3{
+    color: #6D6D6D;
+    font-style: italic;
+    font-weight: 400;
+}
+.about-content span{
+    width: 55%;
+    border: 2px solid #ED145B;
+    display: block;
+    margin: 30px 0px;
+}
+.about-content p.acb{
+    color: #6D6D6D;
+}
+.about-content p{
+    color: #ED145B;
+}
+.fa.fa-play-circle-o{
+    color: #ED145B;
+    margin-left: 15px;
+}
+.about-content img{
+    max-width: 100%;
+    height: auto;
+}
+/* Services Section */
+
+/*prize section*/
+.prices{
+	background:#f4f4f4;
+	padding: 10px 0px;
+}
+
+.prices-title h2{
+	text-transform: capitalize;
+    text-align: center;
+    margin-left: 214px;
+
+}
+.prices-title span{
+	border: 2px solid #ed145b;
+    display: block;
+    width: 15%;
+    margin: auto;
+    margin-left: 411px;
+
+}
+.prices-title p{
+	width: 69%;
+    text-transform: capitalize;
+    text-align: -webkit-center;
+    margin-left: 250px;
+    color: #a52a2a;
+
+}
+/*slide section*/
+
+
+.carousel-control-next {
+    width: 0px;
+}
+
+/*prices card*/
+.prices-card{
+	background:#f4f4f4;
+	padding: 10px 0px;
+	flex-wrap: wrap;
+
+
+}
+.header-text{
+	background: #5a5a5a;
+    text-align: center;
+    width: 280px;
+    height: 188px;
+   
+}
+.header-text h1{
+	color: white;
+
+}
+.header-text span {
+    font-size: 24px;
+
+}
+.standard-btn{
+	border: none;
+    padding: 11px 44px;
+    border-radius: 34px;
+    margin-top: 69px;
+
+}
+.header-text-2{
+	background: #fff;
+    text-align: center;
+    width: 280px;
+    height: 269px;
+}
+.header-text-2 ul{
+	margin: 1px;
+    list-style: none;
+
+}
+
+.header-text-2-btn{
+	border: none;
+    padding: 11px 45px;
+    background: #ed145b;
+    color: #fff;
+    border-radius: 39px;
+    margin-top: 65px;
+
+
+}
+/*prices2*/
+.prices2{
+    background:#fff;
+   transform: translate(10px, -151px);
+}
+
+
+.prices2-text img{
+    transform: translate(-5px, 45px);
+        
+
+}
+.prices2-text h4{
+    color: red;
+    margin-left: 18%;
+
+}
+.prices2-text p {
+    width: 81%;
+    text-align: justify;
+    margin-left: 65px;
+}
+.update-text img{
+
+}
+.show{
+    text-align: center;
+}
+/* Info section */
+.info{
+    background: url(../img/banner5.jpg)no-repeat;
+    max-width: 100%;
+    background-size: cover;
+    height: 500px;
+}
+.info-content h1{
+    color: white !important;
+    font-weight: 300 ;
+    text-align: center;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+.info-content span{
+    width: 30%;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #ED145B;  
+}
+.info p{
+    color: white;
+    text-align: center;
+    margin: 25px 0px;
+}
+.info-btn{
+    color: white;
+    background-color:#ED145B ;
+    padding: 5px 30px;
+    border-radius: 25px;
+    margin: 0 auto;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+.info-btn:hover{
+background-color: #5A5A5A;
+transition: 0.3s ease-in-out;
+}
+
+/* Information section */
+
+.information{
+    background-color: #F4F4F4;
+    height: 650px;
+}
+.information-img img{
+    max-width: 100%;
+    height: auto;
+}
+.information-content h1{
+    color: #5A5A5A !important;
+    font-weight: 300 ;
+    margin-bottom: 25px;
+    font-style: italic;
+}
+.information-content span{
+    width: 33%;
+    border: 2px solid #ED145B;
+    display: block;
+}
+.information-content p{
+    color: #5A5A5A;
+    margin: 25px 0px;   
+}
+.information-btn{
+    color: white;
+    background-color:#ED145B ;
+    padding: 5px 30px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+.information-btn:hover{
+background-color: #5A5A5A;
+transition: 0.3s ease-in-out;
+}
+
+/*Footer section*/
+
+.footer{
+    background-color: #2B2B2B;
+    height: 100px;
+    padding: 0px;
+}
+.footer-bottom p{
+    color: white;
+    padding: 31px;
+    font-weight: 600;
+}
+.footer-content h2{
+    color: white;
+    padding: 31px;
+    font-size: 16px;
+    margin-left: 230px;
+}
+.footer-content span.my-class{
+    color: white;
+    font-weight: 700;
+}
+.footer-content span{
+   color: #FC1A48;
+}
+.row.Footer {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+
+/*Responsive brack point*/
+/* small devices( landscape phone, 576px and up) */
+@media (min-width: 576.01px) and (max-width:768px){
+
+    /*update section*/
+    .update-text p {
+    margin: 165px 2px;
+    text-align: justify;
+    line-height: 15px;
+    color: #f00;
+}
+.update-text h5 {
+   
+    display: block;
+    color: #fffde7;
+    transform: translate(0px, 16px);
+}
+.update-text h5 {
+    transform: translate(-13px, 59px);
+    font-size: 19px;
+}
+
+    /*prices2 close*/
+    /*card*/
+
+    .banner-btn {
+  
+    margin-left: 171px;
+}
+    .banner-content p {
+   
+    margin: 92px 93px;
+}
+    .standard-btn {
+   
+    margin-top: 284px;
+}
+    .header-text-2 {
+    
+    width: 535px;
+    margin-bottom: 21px;
+  
+}
+.header-text-2 {
+    
+    height: 486px;
+}
+.header-text {
+    
+    width: 535px;
+    height: 404px;
+    
+}
+
+element.style {
+}
+.prices-title h2 {
+    
+    margin-left: -11px;
+}
+.prices-title p {
+    
+    margin-left: 83px;
+   
+}
+.prices-title span {
+  
+    margin-left: 217px;
+}
+    
+}
+/*card close*/
+/*mache section*/
+.mache{
+    background: #ed145b;
+    padding: 45px;
+    margin-top: -134px;
+}
+.mache-text{
+    text-align: center;
+}
+ .mache-text h4{
+    color: white;
+
+ }
+ .mache-btn{
+    padding: 10px 46px;
+    border: none;
+    border-radius: 35px;
+    color: #f00;
+}
+/*update section*/
+.update-title{
+    text-align: center;
+
+}
+.update-title h4{
+    font-size: 37px;
+    color: #a52a2a;
+
+}
+.update-title span{
+    border: 2px solid #df2763;
+    display: block;
+    width: 14%;
+    margin: auto;
+
+}
+.update-title p{
+    width: 32%;
+    margin: auto;
+    font-size: 17px;
+    text-transform: capitalize;
+
+}
+.update-title p {
+    width: 55%;
+    
+}
+.update-text h5{
+    margin: -127px 0px;
+    color: #000;
+
+}
+.update-text p{
+    margin: 150px 2px;
+    text-align: justify;
+
+}
+
+
+/*medium devices (labtats, 786 and up)*/
+@media(min-width:768.01px) and (max-width:992px){
+    .banner-content p {
+    margin: 101px 247px;
+}
+.banner-btn {
+    margin-left: 290px;
+}
+    .header-text-2 {
+    height: 256px;
+    width: 177px;
+}
+.header-text {
+    width: 178px;
+    height: 188px;
+}
+
+   
+}
+   
+/* large devices(desktops , 992px and up) */
+@media (min-width: 992.1px) and (max-width: 1200px){
+    .header-text {
+    width: 235px;
+}
+.header-text-2 {
+    width: 234px;
+}
+.prices-title p {
+   
+   margin-left: 194px;
+   
+}
+.prices-title span {
+    margin-left: 365px;
+}
+    
+}
+
+
+    
+
+/*extra-large divices(large desktops, 1200px and up)*/
+@media(min-width:1200px){
+    
+}
